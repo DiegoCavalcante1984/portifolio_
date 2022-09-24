@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color:#000;
+    
+    background: rgba(255, 255, 255, 0.918);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+   
+
+    background-image:url(imagens/developer.jpg);
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size:cover;
+  }
+   
+  
+  main{
+    
+    
+    border-top:1px solid #e55039;
+    
+}
+.banner{
+    
+   
+    width:90%;
+    height:90vh;
+    margin:0 auto;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+
+    
+  }
+
+.banner h1{
+    padding-top:20px;
+    text-align: center;
+    color:#e55039;
+}
+.banner h3{
+    text-align: center; 
+    background-color: #e550393c;
+}
+.menu_{
+    position:absolute;
+    width:70%;
+}
+.menu_ ul li a:hover{
+    background-color: #e55039;
+}
