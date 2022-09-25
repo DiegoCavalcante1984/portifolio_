@@ -4,11 +4,13 @@
 #header_{
   opacity:0;
   position:absolute;
-  background-color:rgb(18, 18, 18);
+  background-color:#2c3e50;
   width:70%;
   display: block;
   text-align: center;
-  transition:opacity 600ms linear
+  transition:opacity 600ms linear;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
   
   
  
@@ -19,7 +21,8 @@
 
   
 #header_ ul li{
- padding:5px;
+  padding:6px;
+ transition:ease-in-out 600ms;
  
  
  
@@ -27,7 +30,8 @@
 }
 
 #header_ ul li:hover{
-  background-color:#e550393c;
+  background-color:#2980b9;
+  transition:ease-in-out 600ms;
   
 }
 #header_ ul li a{
@@ -35,20 +39,30 @@
   text-decoration: none;
   font-size:18px;
   text-transform:capitalize;
+ 
+
+  
 }
   
   
-
+.icon{
+  display: flex;
+  justify-content: end;
+  width:100%;
+  background-color:#2c3e50;
+  
+}
 .material-icons{
-  background-color:rgb(18, 18, 18); ;
+  background-color:#2c3e50;
   font-size:30px;
   color: #FFF;
-  width:100%;
+  width:10%;
   padding:5px;
   padding-right:15px;
-  text-align: end;
+  text-align:center;
   cursor:pointer;
 }
+
 
 
 
