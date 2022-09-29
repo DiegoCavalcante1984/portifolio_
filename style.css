@@ -131,7 +131,7 @@ main{
 .box_description{
     
     background-color:beige;
-    height:135vh;
+    height:125vh;
     padding:10px;
    
    
@@ -168,15 +168,63 @@ main{
 .job_container{
 
     height:100vh;
-    background-color: #2c3e50;
+    background-color:#2c3e50;
     
 }
 .job_container h1{
     color:#FFF;
     padding-top:30px;
     text-align: center;
+    
 }
-
+.job1{
+    color:#FFF;
+    text-decoration: underline #FFAA00;
+    padding-top:25px;
+    text-align: center;
+    cursor: pointer;
+}
+.job2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    color: #3D61B1;
+    text-align: center;
+    padding-top:25px;
+    cursor: pointer;
+}
+.job2 img{
+    width: 50px;
+    height: 50px;
+    line-height:50px;
+}
+.job3{
+    text-align: center;
+    padding-top:25px;
+    font-size:1.6rem;
+    cursor: pointer;
+}
+.footer{
+    background-color:#000;
+    height:12vh;
+}
+.social_media_footer{
+    padding-top:20px;
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    font-size:12px;
+}
+.social_media_footer a i{
+    color:#FFF;
+    font-size:20px;
+    padding:15px
+}
 
 
     
