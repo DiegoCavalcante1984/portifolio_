@@ -18,7 +18,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="icon">
+    <div class="icon" id="home">
         
         <span class="material-icons" onclick="Mclick()" id="icon">menu</span>
         
@@ -29,17 +29,17 @@
            
                 <ul>
                     
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Contatos</a></li>
-                    <li><a href="#">Portifólio</a></li>
-                    <li><a href="#">Quem sou eu</a></li>
-                    <li><a href="#">Download CV</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#footer">Contatos</a></li>
+                    <li><a href="#job">Portifólio</a></li>
+                    <li><a href="#description">Quem sou eu</a></li>
+                    <li><a href="#cv">Download CV</a></li>
                 </ul>
        </menu>
         
     </header>
     <main>
-        <section class="banner">
+        <section class="banner" >
             <h1 id="name">Diego Cavalcante</h1> 
             <h3>frontend Developer</h3>
 
@@ -57,19 +57,17 @@
                     <h1>Invista em sua Empresa</h1>
                 </div>
                 <div class="text_banner">
-                    <p>Crie um Site para o seu negócio e faça seu cliente Chegar até você</p>
+                    <p>Crie um site para o seu negócio e faça seu cliente chegar até você</p>
                   
                 </div>
             </article>
-            <div class="btn">
-                <button>Conheça meus Trabalhos</button>
-            </div>
+           
         </section>
         
         
-        <section class="box_description">
+        <section class="box_description" id="description">
             <h1>Olá Pessoal!</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tempore veritatis fugiat facilis eveniet fugit, accusantium ipsam laboriosam perspiciatis dolorum aut mollitia soluta quas expedita laborum nisi nesciunt eligendi qui.</p>
+            <p>Sou analista de sistemas,desenvolvedor frontend. consectetur adipisicing elit. Aliquid tempore veritatis fugiat facilis eveniet fugit, accusantium ipsam laboriosam perspiciatis dolorum aut mollitia soluta quas expedita laborum nisi nesciunt eligendi qui.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio numquam fugit aliquam quae quis eligendi, minus odio sapiente enim repellendus fugiat totam ipsam voluptatem consequatur ipsa harum veritatis sunt provident.</p>
             
             <div class ="box_img">
@@ -78,8 +76,8 @@
            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, suscipit expedita similique, libero dicta, autem fuga consequatur at quia placeat saepe ipsum labore eveniet ut illo architecto sunt iusto sapiente.</p>
         </section>
         
-        <section class="job_container">
-            <h1>Alguns dos Meus Trabalhos</h1>
+        <section class="job_container" id="job">
+            <h1>Alguns dos meus trabalhos</h1>
 
             
             <h2 class="job2">Respirah!
@@ -88,8 +86,12 @@
             <h2 class="job3">Bistrô Videiras</h2>
 
             <h2 class="job1">Salgados Premium</h2>
+
+            <div class="btn">
+                <a href="https://wa.me/5511948469283" target="_blank"><button>Entre em Contato</button> </a>
+            </div>
         </section>
-        <footer class="footer">
+        <footer class="footer" id="footer">
             <div class="social_media_footer">
                 <a href="https://github.com/DiegoCavalcante1984" target="_blank"><i class="fa-brands fa-github"></i></a>
     
@@ -97,9 +99,10 @@
 
                <a href="https://www.linkedin.com/in/diego-cavalcante-1425a91bb/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
 
+             
                
             </div>
-            <p>Site Desenvolvido por Diego Cavalcante</p>
+            <p>Desenvolvido por Diego Cavalcante</p>
            
         </footer>
         
