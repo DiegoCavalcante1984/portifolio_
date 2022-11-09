@@ -1,17 +1,8 @@
-
-
 function Mclick(){
-  if(header_.style.display == 'none'){
-    header_.style.display = 'block'
-    icon.style.color = '#3498db'
-    
+  if(menu_.style.display == 'none'){
+    menu_.style.display = 'block'
   }
   else{
-    header_.style.display = 'none'
-    icon.style.color = '#FFF'
-    
-
-    
+    menu_.style.display = 'none' 
   }
-
 }
