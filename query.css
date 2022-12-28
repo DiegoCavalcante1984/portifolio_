@@ -32,6 +32,9 @@
     height:100vh;
     margin:0 auto;
   }
+  .text_banner p{
+    width: 70%;
+  }
   .box_description{
     
       background-color:beige;
@@ -39,15 +42,11 @@
       padding:10px;
       margin-top:-70px;
   }
-  .job_container{
-    margin-top:30px;
+  .box_description p{
+    width:90%;
   }
-
-     
-     
-
-  
-  @media (min-width:922px){
+    
+    @media (min-width:922px){
     #menu_ ul{
       display:flex;
       justify-content: start;

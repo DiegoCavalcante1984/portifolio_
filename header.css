@@ -32,17 +32,17 @@
 #header_ ul li:hover{
   background-color:#2980b9;
   transition:ease-in-out 600ms;
+ 
   
 }
 #header_ ul li a{
   color:#FFF;
   text-decoration: none;
-  font-size:18px;
-  text-transform:capitalize;
- 
-
-  
+  font-size:16px;
+  text-transform:uppercase;
+  font-weight:bold;
 }
+
 #iconClose{
   display:none;
 }

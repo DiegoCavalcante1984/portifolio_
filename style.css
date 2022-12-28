@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
     scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 
@@ -45,8 +47,9 @@ main{
     
   }
 
+
 #name{
-    
+    font-size:1.8rem;
     width:50%;
     margin:0 auto;
     text-transform:uppercase;
@@ -63,12 +66,15 @@ main{
     background-color:#297fb972;
     text-transform: uppercase;
 }
-
+menu ul{
+    position:sticky;
+}
 
 menu ul li{
     background-color:#2c3e50;
     display:block;
     list-style:none;
+   
     }
 
 
@@ -95,13 +101,15 @@ menu ul li{
     padding:10px;
 } 
 #title_banner{
-    font-size:1.8rem;
+    text-transform: uppercase;
+    font-size:1.5rem;
     color: #2980b9;
     text-align: center;
 }
 .box_banner{
     
     background-color: #2c3e5036;
+    height: 100%;
     padding:10px;
     border-radius:5px;
 }
@@ -115,29 +123,12 @@ menu ul li{
     margin-top:15px;
     font-size:1.2rem;
     line-height:1.6rem;
-    width:70%;
+    width:50%;
     text-align:center;
     
 }
 
-.btn{
-    display: flex;
-    justify-content: center;
-    margin-top:100px;
-    width: 100%;
-}
 
-.btn button{
-    background-color:rgb(28, 204, 28);
-    width:250px;
-    padding:8px;
-    border:none;
-    border-radius:5px;
-    color:#FFF;
-    font-size:20px;
-    cursor:pointer;
-    
-}
 
 .box_description{
     
@@ -160,6 +151,8 @@ menu ul li{
     text-align: center;
     margin:0 auto;
     margin-top:30px;
+    
+    
     
 }
 .box_img{
